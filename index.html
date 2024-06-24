@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn & SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <form action="" class="form active" id="sign-in-form">
+      <div class="container">
+        <h1>Sign In</h1>
+        <div class="icons">
+          <a href=""> <i class="fa-brands fa-google"></i> </a>
+          <a href=""> <i class="fa-brands fa-facebook-f"></i> </a>
+          <a href=""> <i class="fa-brands fa-linkedin-in"></i> </a>
+        </div>
+        <p>Or use you account</p>
+        <div class="input">
+          <input type="text" placeholder="Username" class="type" />
+          <br />
+          <input type="password" placeholder="********" class="type" />
+          <a href="" class="forget">
+            <p>Forgot password?</p>
+          </a>
+        </div>
+        <a href="#" class="button">Login</a>
+        <p>
+          Don't have an account?
+          <a href="#" class="signUp" id="show-sign-up">Sign Up</a>
+        </p>
+      </div>
+    </form>
+    <form action="" class="form" id="sign-up-form">
+      <div class="container">
+        <h1>Create an account</h1>
+        <div class="icons">
+          <a href=""> <i class="fa-brands fa-google"></i> </a>
+          <a href=""> <i class="fa-brands fa-facebook-f"></i> </a>
+          <a href=""> <i class="fa-brands fa-linkedin-in"></i> </a>
+        </div>
+        <p>Or enter your details</p>
+        <div class="input">
+          <input type="text" placeholder="Username" class="type" />
+          <br />
+          <input type="email" name="" id="" placeholder="email" class="type" />
+          <br />
+          <input type="password" placeholder="********" class="type" />
+          <br />
+          <input type="password" placeholder="Confirm Password" class="type" />
+        </div>
+        <a href="#" class="button">Create Account</a>
+        <p>
+          Already have an account?
+          <a href="#" class="signIn" id="show-sign-in">Sign In</a>
+        </p>
+      </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
